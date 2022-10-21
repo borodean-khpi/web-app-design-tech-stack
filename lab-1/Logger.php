@@ -4,6 +4,6 @@ class Logger
 {
   public function log(mixed ...$messages): void
   {
-    /* ...log the messages... */
+    /* TODO: Log the messages. */
   }
 }

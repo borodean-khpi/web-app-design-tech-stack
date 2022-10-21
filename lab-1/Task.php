@@ -9,7 +9,8 @@ class Task
 
   public function updateStatus(User $user, string $newStatus): void
   {
-    /* ...update the status... */
+    /* TODO: update the status. */
+
     $this->logger->log('Status updated', time(), $user);
   }
 }
