@@ -8,7 +8,11 @@ class SlackClient
 
   public function authenticate(): void
   {
-    printf("[Slack] Authenticated as \"%s\", API key \"%s\".\n\n", $this->login, $this->apiKey);
+    printf(
+      "[Slack] Authenticated as \"%s\", API key \"%s\".\n\n",
+      $this->login,
+      $this->apiKey,
+    );
   }
 
   public function sendMessage(string $chatID, string $message): void
