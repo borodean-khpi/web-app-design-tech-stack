@@ -12,8 +12,6 @@ class Project
 
   public function addUser(User $user): void
   {
-    /* TODO: add the user. */
-
     $this->addUserNotifier->notify(
       user: $this->admin,
       message: 'User added',

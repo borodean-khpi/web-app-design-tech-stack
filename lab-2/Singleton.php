@@ -22,11 +22,9 @@ class Singleton
 
   protected function __construct()
   {
-    /* Do nothing */
   }
 
   private function __clone()
   {
-    /* Do nothing */
   }
 }

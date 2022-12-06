@@ -9,8 +9,6 @@ class User
 
   public function addTask(Task $task): void
   {
-    /* TODO: add the task. */
-
     $this->notifier->notify(
       user: $this,
       message: 'Task added',
