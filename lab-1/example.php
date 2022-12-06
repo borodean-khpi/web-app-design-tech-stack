@@ -1,10 +1,10 @@
 <?php
 
-require_once "Logger.php";
-require_once "Notifier.php";
-require_once "Project.php";
-require_once "Task.php";
-require_once "User.php";
+require_once 'Logger.php';
+require_once 'Notifier.php';
+require_once 'Project.php';
+require_once 'Task.php';
+require_once 'User.php';
 
 $logger = new Logger();
 

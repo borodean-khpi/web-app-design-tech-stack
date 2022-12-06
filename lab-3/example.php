@@ -1,7 +1,7 @@
 <?php
 
-require_once "Client.php";
-require_once "Poster.php";
+require_once 'Client.php';
+require_once 'Poster.php';
 
 $facebookConnection = new FacebookPoster('NoobMaster69', 'jelly22fi$h');
 $facebookConnection->post('Hello Facebook!');

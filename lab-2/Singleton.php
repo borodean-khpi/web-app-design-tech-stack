@@ -17,7 +17,7 @@ class Singleton
 
   public function __wakeup()
   {
-    throw new \Exception("Cannot unserialize a singleton.");
+    throw new \Exception('Cannot unserialize a singleton.');
   }
 
   protected function __construct()
