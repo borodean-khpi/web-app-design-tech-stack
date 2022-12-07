@@ -1,5 +1,7 @@
 <?php
 
+/* Abstraction */
+
 abstract class Page
 {
   public function __construct(protected IRenderer $renderer)

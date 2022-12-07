@@ -1,5 +1,7 @@
 <?php
 
+/* Singleton */
+
 class Singleton
 {
   private static $instances = [];

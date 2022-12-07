@@ -1,5 +1,7 @@
 <?php
 
+/* Implementation */
+
 interface IRenderer
 {
   public function renderImage(string $url): string;
@@ -7,6 +9,8 @@ interface IRenderer
   public function renderText(string $content): string;
   public function renderTitle(string $content): string;
 }
+
+/* Concrete implementation 1 */
 
 class HTMLRenderer implements IRenderer
 {
@@ -31,6 +35,8 @@ class HTMLRenderer implements IRenderer
   }
 }
 
+/* Concrete implementation 2 */
+
 class JSONRenderer implements IRenderer
 {
   public function renderImage(string $url): string
@@ -53,6 +59,8 @@ class JSONRenderer implements IRenderer
     return sprintf('"title": "%s"', $content);
   }
 }
+
+/* Concrete implementation 3 */
 
 class XMLRenderer implements IRenderer
 {
