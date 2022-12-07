@@ -26,7 +26,7 @@ says '$message'.";
 
 class SlackNotification implements Notification
 {
-  public function __construct(private SlackClient $client, private $chatID)
+  public function __construct(private SlackClient $client, private string $chatID)
   {
   }
 
